@@ -1,0 +1,9 @@
+/*
+		MINDEN_OS - Created by Andrew J. Shepherd & PLUTONEON.COM
+*/
+
+/* Loader */
+
+	body:before, body:after {
+		display: none;
+	}
