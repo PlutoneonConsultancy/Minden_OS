@@ -2078,8 +2078,12 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
-				}
+					  background-image: url("images/dark-arrow.svg");
+					  background-repeat: no-repeat;
+					  background-position: right center;
+					  background-size: 16px 16px;
+					  padding-right: 2.25rem;
+					}
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
