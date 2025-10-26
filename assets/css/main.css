@@ -2081,7 +2081,7 @@ input, select, textarea {
 					  background-image: url("images/dark-arrow.svg");
 					  background-repeat: no-repeat;
 					  background-position: right center;
-					  background-size: 16px 16px;
+					  background-size: 64px 64px;
 					  padding-right: 2.25rem;
 					}
 
