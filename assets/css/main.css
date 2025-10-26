@@ -2078,12 +2078,22 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					  background-image: url("images/dark-arrow.svg");
-					  background-repeat: no-repeat;
-					  background-position: right center;
-					  background-size: 64px 64px;
+					  position: relative;
 					  padding-right: 2.25rem;
-					}
+				}
+				
+				.main.dark .button.style2.down::after {
+					  content: "";
+					  display: inline-block;
+					  position: absolute;
+					  right: 0.75rem;
+					  top: 50%;
+					  width: 96px;
+					  height: 96px;
+					  background: url("images/dark-arrow.svg") no-repeat center/contain;
+					  transform: translateY(-50%) rotate(-30deg); /* -30deg = 30 degrees anti-clockwise */
+					  pointer-events: none;
+				}
 
 		body.is-touch .main {
 			background-attachment: scroll !important;
