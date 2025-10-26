@@ -2076,23 +2076,12 @@ input, select, textarea {
 				.main.dark .button.style2:active {
 					background-color: rgba(255, 255, 255, 0.25);
 				}
-
 				.main.dark .button.style2.down {
-					  position: relative;
-					  padding-right: 2.25rem;
-				}
-				
-				.main.dark .button.style2.down::after {
-					  content: "";
-					  display: inline-block;
-					  position: absolute;
-					  right: 0.75rem;
-					  top: 50%;
-					  width: 96px;
-					  height: 96px;
-					  background: url("images/dark-arrow.svg") no-repeat center/contain;
-					  transform: translateY(-50%) rotate(-30deg); /* -30deg = 30 degrees anti-clockwise */
-					  pointer-events: none;
+				  background-image: url("images/dark-arrow.svg");
+				  background-repeat: no-repeat;
+				  background-position: right center;
+				  background-size: 96px 96px;
+				  padding-right: 2.5rem;
 				}
 
 		body.is-touch .main {
